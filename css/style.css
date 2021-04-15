@@ -1,11 +1,21 @@
 header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background-color: #37767A;
     border-bottom: 10px solid #000;
     padding:10px 20px;
 
 }
+
+h1{
+    display: inline-flex;
+    text-shadow: 5px 5px 0px black;
+    color: #D4C6C6;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 30px;
+}
+
 
 nav {
     text-align: right;
@@ -31,9 +41,8 @@ a::before{
     margin-right: 10px;
 }
 
-#button::before {
-    content: "";
-    display: none;
+a:hover {
+    color: #FFF;
 }
 
 #button {
@@ -42,13 +51,16 @@ a::before{
     padding:18px 20px;
     box-shadow: 5px 5px 0px #000000;
     margin-right: 0;
+    transition: transforme 100ms linear, opacity 200ms ease-in-out;
 }
 
-a:hover {
-    color: #FFF;
+#button::before {
+    content: "";
+    display: none;
 }
 
 #button:hover {
-    padding: 19px 21px;
-
+    transform: scale(1.08);
+    opacity: 0.8;
 }
+
