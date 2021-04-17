@@ -1,0 +1,7 @@
+#logo{
+    display: inline-flex;
+    text-shadow: 5px 5px 0px black;
+    color: #D4C6C6;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 30px;
+}
