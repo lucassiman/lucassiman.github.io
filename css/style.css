@@ -45,8 +45,8 @@ a:hover {
     color: #FFF;
 }
 
-#button {
-    display: inline-block;
+.button {
+    display: inline-flex;
     background-color: #9E1616;
     padding:18px 20px;
     box-shadow: 5px 5px 0px #000000;
@@ -54,13 +54,55 @@ a:hover {
     transition: transforme 100ms linear, opacity 200ms ease-in-out;
 }
 
-#button::before {
+.button::before {
     content: "";
     display: none;
 }
 
-#button:hover {
+.button:hover {
     transform: scale(1.08);
     opacity: 0.8;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    background-image: url("/assets/img/photo.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#title {
+    display: inline-flex;
+    flex-direction: column;
+    align-items:center ;
+    padding: 14px;
+    width: 627px;
+    height: 196px;
+    background-color: #3A4042;
+    margin-left: 91px;
+    margin-top: 116px;
+    box-shadow: 10px 10px 0px #000000;
+}
+
+span {
+    display: inline-flex;
+    margin-top: 28px;
+    color: #D4C6C6;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    text-shadow: 4px 4px 0px black;
+}
+
+#tl-name {
+    color:#9E1616;
+    font-size: 40px;
+}
+
+#buttonsArea {
+    display: inline-flex;
 }
 
