@@ -1,0 +1,21 @@
+.button {
+    display: inline-flex;
+    background-color: #9E1616;
+    padding:18px 20px;
+    box-shadow: 5px 5px 0px #000000;
+    margin-right: 0;
+    transition: transforme 100ms linear, opacity 200ms ease-in-out;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.button::before {
+    content: "";
+    display: none;
+}
+
+.button:hover {
+    transform: scale(1.08);
+    opacity: 0.8;
+}
