@@ -12,4 +12,7 @@ button {
 	font-family:inherit ;
 }
 
+progress {
+    -webkit-appearance: none;
+  }
 
