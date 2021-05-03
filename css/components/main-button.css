@@ -19,3 +19,8 @@
     transform: scale(1.08);
     opacity: 0.8;
 }
+
+.main-button.-full {
+    justify-content: center;
+    width: 100%;
+}
